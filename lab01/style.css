@@ -1,0 +1,64 @@
+body{
+    padding: 30px auto;
+}
+.wraper{
+    max-width: 600px;
+    margin: 30px auto;
+
+}
+.wraper .images{
+    /* width: 100%; */
+    aspect-ratio: 16/9;
+    position: relative;
+    
+}
+.wraper .images img{
+    position: absolute;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.wraper .btn{
+    margin: 15px auto;
+    width: 50px;
+    transition: width .3s;
+
+}
+.wraper .btn:hover{
+    width: 70px;
+    /* border: 2px solid black; */
+
+}
+.wraper button{
+    margin: 15px auto;
+    width: 100%;
+    background-color: rgb(226, 37, 37);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(131, 126, 126);
+    height: 30px;
+    cursor: pointer;
+}
+
+
+/* second task */
+
+.flex{
+    margin: 0 auto;
+    width: 60vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 15px;
+    min-height: 350px;
+    /* border: 2px solid black; */
+
+}
+.flex img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
